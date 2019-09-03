@@ -1,3 +1,7 @@
-<?php require_once('class/core/Db.php');?>
-<?php require_once('class/core/DbInit.php');?>
-<?php $db = Db::instance();?>
+<?php 
+require_once('class/core/Db.php');
+require_once('class/core/DbInit.php');
+$db = Db::instance();
+
+
+?>
